@@ -23,9 +23,9 @@ import makeSortKey from 'make-sort-key';
 
 console.log(makeSortKey('Dûpont', 'Jêàn')); // => dupont jean
 
-console.log(makeSortKey('', '', 'Apple Computer')); // => apple computer
+console.log(makeSortKey(' Apple   Computer  ')); // => apple computer
 
-console.log(makeSortKey(undefined, 'John')); // => john
+console.log(makeSortKey('', undefined, 'Apple Computer')); // => apple computer
 ```
 
 ## License
