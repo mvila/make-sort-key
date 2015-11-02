@@ -1,6 +1,6 @@
 {
   "name": "make-sort-key",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "Combine several strings to make one sort key",
   "author": "Manuel Vila <mvila@3base.com>",
   "license": "MIT",
